@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f3f4f8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    max-width: 900px;
+}
+
+.card {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.content-scheduler {
+    grid-column: 1 / 2;
+    background-color: #f3e8ff;
+}
+
+.content-scheduler h3 {
+    font-size: 1.2rem;
+    color: #333;
+}
+
+.create-post-btn {
+    background-color: #ffb347;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.create-post-btn:hover {
+    background-color: #ff9c00;
+}
+
+.main {
+    grid-column: 2 / 4;
+    text-align: center;
+    background-color: #dcd4ff;
+}
+
+.main h2 {
+    font-size: 1.5rem;
+    color: #333;
+}
+
+.best-time {
+    background-color: #d1c4ff;
+}
+
+.chart {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+}
+
+.bar {
+    width: 20px;
+    height: 50px;
+    background-color: #ccc;
+    border-radius: 5px;
+}
+
+.bar.active {
+    background-color: #8c70ff;
+}
+
+.write-content {
+    background-color: #ffdeb5;
+}
+
+.stats {
+    background-color: #fff3cd;
+    font-size: 1.2rem;
+}
+
+.manage-accounts {
+    background-color: #d7f2ff;
+}
+
+.posting-schedule {
+    background-color: #e8e9ff;
+}
+
+.follower-growth {
+    background-color: #f0f4ff;
+}
+
+.grow-followers {
+    grid-column: 2 / 4;
+    background-color: #ffe5d8;
+    text-align: center;
+}
