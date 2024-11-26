@@ -1,0 +1,50 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f1f1f1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+    width: 80%;
+    max-width: 1200px;
+}
+
+.item {
+    background-color: #555;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.one {
+    grid-column: span 2;
+}
+
+.two {
+    grid-row: span 2;
+}
+
+.three {
+    grid-row: span 2;
+}
+
+.four {
+    grid-column: span 2;
+}
+
+.five {
+    grid-column: span 2;
+}

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        .click-resize-div {
+            width: 100px;
+            height: 100px;
+            background-color: red;
+            transition: transform 0.3s ease;
+        }
+
+        .click-resize-div:hover {
+            transform: scale(1.5); /* Enlarges the div by 1.5x on hover */
+        }
+
+        .click-resize-div:active {
+            transform: scale(0.9); /* Shrinks the div a little when clicked */
+        }
+    </style>
+    <title>Resize and Shrink Div on Click</title>
+</head>
+<body>
+    <div class="click-resize-div"></div>
+</body>
+</html>

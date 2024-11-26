@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="ka">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Input Types Test</title>
+</head>
+<body>
+    <h1>Input Types Test</h1>
+    
+    <form>
+        <!-- Range type -->
+        <label for="range">სლაიდერი:</label>
+        <input type="range" id="range" name="range" min="0" max="100" value="50"><br><br>
+
+        <!-- Color picker -->
+        <label for="color">ფერის არჩევა:</label>
+        <input type="color" id="color" name="color" value="#ff0000"><br><br>
+
+        <!-- Tel type -->
+        <label for="phone">ტელეფონის ნომერი:</label>
+        <input type="tel" id="phone" name="phone" placeholder="მაგ: 555-555-555"><br><br>
+
+        <!-- Time type -->
+        <label for="time">დრო:</label>
+        <input type="time" id="time" name="time" required><br><br>
+
+        <!-- URL type -->
+        <label for="website">ვებგვერდი:</label>
+        <input type="url" id="website" name="website" placeholder="მაგ: https://www.example.com"><br><br>
+
+        <!-- Search type -->
+        <label for="search">მომხმარებლის ძიება:</label>
+        <input type="search" id="search" name="search" placeholder="შეიყვანეთ ტექსტი"><br><br>
+
+        <!-- Email type -->
+        <label for="email">მეილი:</label>
+        <input type="email" id="email" name="email" placeholder="შეიყვანეთ თქვენი მეილი"><br><br>
+
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>

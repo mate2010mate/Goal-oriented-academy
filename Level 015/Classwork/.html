@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="ka">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up Form</title>
+</head>
+<body>
+    <h1>Sign Up</h1>
+    <form action="/submit-signup" method="POST">
+        <label for="first-name">სახელი:</label>
+        <input type="text" id="first-name" name="first-name" required value="" placeholder="შეიყვანეთ სახელი"><br>
+
+        <label for="last-name">გვარი:</label>
+        <input type="text" id="last-name" name="last-name" required value="" placeholder="შეიყვანეთ გვარი"><br>
+
+        <label for="email">მეილი:</label>
+        <input type="email" id="email" name="email" required value="" placeholder="შეიყვანეთ მეილი"><br>
+
+        <label for="dob">დაბადების თარიღი:</label>
+        <input type="date" id="dob" name="dob" required><br>
+
+        <label for="password">პაროლი:</label>
+        <input type="password" id="password" name="password" required placeholder="შეიყვანეთ პაროლი"><br>
+
+        <input type="submit" value="რეგისტრაცია">
+    </form>
+</body>
+</html>
