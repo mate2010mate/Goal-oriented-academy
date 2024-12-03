@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="ka">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>პერსონალური პორტფოლიო</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#about">შესახებ</a></li>
+                <li><a href="#projects">პროექტები</a></li>
+                <li><a href="#contact">კონტაქტი</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="about">
+        <h1>ჩემ შესახებ</h1>
+        <p>მე ვარ ვებ-დეველოპერი, რომელსაც აქვს გამოცდილება HTML, CSS და JavaScript-ში.</p>
+    </section>
+
+    <section id="projects">
+        <h2>პროექტები</h2>
+        <div class="project-container">
+            <div class="project-card">
+                <h3>პროექტი 1</h3>
+                <p>დამუშავდა კოდირების პროცესისას.</p>
+            </div>
+            <div class="project-card">
+                <h3>პროექტი 2</h3>
+                <p>დამუშავდა ვებ-დიზაინის შექმნისას.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>კონტაქტი</h2>
+        <form>
+            <label for="name">სახელი:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">ელ. ფოსტა:</label>
+            <input type="email" id="email" name="email" required>
+            <button type="submit">გაგზავნა</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>ყველა უფლება დაცულია &copy; 2024</p>
+    </footer>
+</body>
+</html>

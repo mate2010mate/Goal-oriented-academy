@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Drop-Down Menus</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        .dropdown {
+            margin: 20px 0;
+        }
+        label {
+            font-weight: bold;
+        }
+        select {
+            padding: 10px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            font-size: 14px;
+            width: 200px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Drop-Down Menus</h1>
+
+    <!-- Drop-Down 1: Favorite Programming Languages -->
+    <div class="dropdown">
+        <label for="languages">Select your favorite programming language:</label><br>
+        <select id="languages">
+            <option value="python">Python</option>
+            <option value="javascript">JavaScript</option>
+            <option value="java">Java</option>
+            <option value="csharp">C#</option>
+            <option value="ruby">Ruby</option>
+        </select>
+    </div>
+
+    <!-- Drop-Down 2: Favorite Sports -->
+    <div class="dropdown">
+        <label for="sports">Choose your favorite sport:</label><br>
+        <select id="sports">
+            <option value="football">Football</option>
+            <option value="basketball">Basketball</option>
+            <option value="tennis">Tennis</option>
+            <option value="cricket">Cricket</option>
+            <option value="swimming">Swimming</option>
+        </select>
+    </div>
+
+    <!-- Drop-Down 3: Preferred Travel Destinations -->
+    <div class="dropdown">
+        <label for="travel">Pick a travel destination:</label><br>
+        <select id="travel">
+            <option value="paris">Paris</option>
+            <option value="tokyo">Tokyo</option>
+            <option value="bali">Bali</option>
+            <option value="newyork">New York</option>
+            <option value="cape-town">Cape Town</option>
+        </select>
+    </div>
+</body>
+</html>
