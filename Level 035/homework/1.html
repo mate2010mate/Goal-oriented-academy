@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Personal Website</title>
+    <style>
+        body {
+            background-image: url('https://www.example.com/background.jpg');
+            background-size: cover;
+            background-position: center;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            height: 100vh;
+            color: white;
+        }
+        .header {
+            text-align: center;
+            padding: 20px;
+        }
+        .content {
+            text-align: center;
+            padding-top: 20%;
+            font-size: 1.5rem;
+        }
+        .form-container {
+            text-align: center;
+            margin-top: 30px;
+        }
+        .form-container input, .form-container button {
+            padding: 10px;
+            margin: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>Welcome to My Website</h1>
+        <p>This is a website showcasing my learning progress.</p>
+    </div>
+    <div class="content">
+        <p>Feel free to test out the form below:</p>
+    </div>
+    <div class="form-container">
+        <input type="text" id="number1" placeholder="Enter a number">
+        <input type="text" id="number2" placeholder="Enter another number">
+        <button onclick="calculateSum()">Calculate Sum</button>
+        <p id="result"></p>
+    </div>
+
+    
+</body>
+</html>

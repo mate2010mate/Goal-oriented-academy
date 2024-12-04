@@ -1,0 +1,25 @@
+i/* 1. ID selector - targets an element with a specific ID */
+#myDiv {
+    background-color: lightblue; /* Sets background color of the element with ID "myDiv" */
+  }
+  
+  /* 2. Class selector - targets elements with a specific class */
+  .container {
+    padding: 20px; /* Applies 20px padding to all elements with the class "container" */
+  }
+  
+  /* 3. Type selector - targets all elements of a specific type */
+  p {
+    color: green; /* Sets text color of all <p> (paragraph) elements to green */
+  }
+  
+  /* 4. Descendant selector - targets elements within another element */
+  #myDiv p {
+    font-size: 18px; /* Sets the font size of <p> elements inside the element with ID "myDiv" */
+  }
+  
+  /* 5. Pseudo-class selector - targets elements in a specific state (e.g., on hover) */
+  button:hover {
+    background-color: yellow; /* Changes the background color of a button to yellow when hovered */
+  }
+  

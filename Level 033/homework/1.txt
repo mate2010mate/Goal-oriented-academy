@@ -1,0 +1,65 @@
+justify-content:
+
+Defines how items are distributed along the main axis (horizontal axis by default).
+Values:
+flex-start: Align items to the start of the container.
+flex-end: Align items to the end of the container.
+center: Align items in the center of the container.
+space-between: Distribute items evenly, with the first item at the start and the last at the end.
+space-around: Distribute items evenly with equal space around them.
+space-evenly: Distribute items evenly with equal space between, before, and after each item.
+align-items:
+
+Aligns items along the cross axis (vertical axis by default).
+Values:
+flex-start: Align items at the top of the container.
+flex-end: Align items at the bottom of the container.
+center: Align items in the center of the container.
+baseline: Align items based on their baseline.
+stretch: Stretch items to fill the container (default).
+flex-direction:
+
+Defines the direction in which the flex container's items are placed.
+Values:
+row: Items are placed horizontally (default).
+row-reverse: Items are placed horizontally, but in reverse order.
+column: Items are placed vertically.
+column-reverse: Items are placed vertically, but in reverse order.
+order:
+
+Specifies the order in which flex items are displayed in the flex container.
+Values:
+A number (default is 0). Items with smaller numbers are displayed first.
+align-self:
+
+Allows individual flex items to override the align-items property for their own alignment.
+Values:
+auto: Uses the value of align-items (default).
+flex-start: Align the item to the start of the cross axis.
+flex-end: Align the item to the end of the cross axis.
+center: Align the item in the center of the cross axis.
+baseline: Align the item to its baseline.
+stretch: Stretch the item to fill the container.
+flex-wrap:
+
+Specifies whether the flex container’s items should wrap onto multiple lines if needed.
+Values:
+nowrap: Items will not wrap (default).
+wrap: Items will wrap onto multiple lines.
+wrap-reverse: Items will wrap onto multiple lines in reverse order.
+flex-flow:
+
+A shorthand property for setting both flex-direction and flex-wrap.
+Values:
+flex-direction (row/column/...).
+flex-wrap (wrap/nowrap/...).
+align-content:
+
+Defines the alignment of the flex container’s lines along the cross axis when there is extra space in the container (for multi-line flex containers).
+Values:
+flex-start: Align the lines to the start of the container.
+flex-end: Align the lines to the end of the container.
+center: Align the lines in the center of the container.
+space-between: Distribute the lines evenly with the first line at the start and the last at the end.
+space-around: Distribute the lines evenly with equal space around them.
+stretch: Stretch the lines to fill the container.
