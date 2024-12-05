@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Endless Box Animation</title>
+    <style>
+        /* სტილები მთელი ეკრანისთვის */
+        body {
+            margin: 0;
+            padding: 0;
+            height: 100vh; /* სრული სიმაღლე */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #f0f0f0;
+            overflow: hidden; /* ვეღარ გამოვა ყუთი ეკრანიდან */
+        }
+
+        /* ყუთი */
+        .moving-box {
+            width: 100px;
+            height: 100px;
+            background-color: #3498db;
+            position: absolute;
+            animation: moveBox 5s ease-in-out infinite; /* უსასრულო მოძრაობა */
+        }
+
+        /* keyframes-ი, რომელიც ყუთს მარცხნიდან მარჯვნივ გადაადგილებს */
+        @keyframes moveBox {
+            0% {
+                transform: translateX(-100%); /* დაიწყება ეკრანის გარეთ მარცხნიდან */
+            }
+            50% {
+                transform: translateX(100vw); /* შუაში ჩავიდეთ მარჯვნივ */
+            }
+            100% {
+                transform: translateX(-100%); /* დააბრუნე მარცხნივ */
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- ყუთი, რომელიც მოძრაობს -->
+    <div class="moving-box"></div>
+
+</body>
+</html>
