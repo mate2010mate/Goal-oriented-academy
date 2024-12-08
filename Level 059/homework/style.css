@@ -1,0 +1,73 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f7f9fc;
+    margin: 0;
+    padding: 0;
+}
+
+.calculator-container {
+    display: flex;
+    justify-content: space-between;
+    margin: 50px;
+}
+
+.calculator-form {
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 45%;
+}
+
+.calculator-form h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.calculator-form label {
+    display: block;
+    margin-bottom: 8px;
+}
+
+.calculator-form input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.mortgage-type label {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #f9b342;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #f28e21;
+}
+
+.calculator-results {
+    background-color: #2b3b52;
+    color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    width: 45%;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.calculator-results h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.calculator-results p {
+    font-size: 18px;
+}
