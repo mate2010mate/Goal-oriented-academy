@@ -1,3 +1,0 @@
-;/*FB_PKG_DELIM*/
-
-__d("SearchCometFiltersPlaceholder.react",["CometProgressIndicator.react","react"],(function(a,b,c,d,e,f,g){"use strict";var h,i=(h||(h=d("react"))).c,j=h;function a(){var a=i(1),b;a[0]===Symbol["for"]("react.memo_cache_sentinel")?(b=j.jsx("div",{className:"x78zum5 xl56j7k x1cnzs8 xc73u3c xx6bls6 x5ib6vp",children:j.jsx(c("CometProgressIndicator.react"),{})}),a[0]=b):b=a[0];return b}g["default"]=a}),98);
