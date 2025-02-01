@@ -1,0 +1,17 @@
+.slider {
+    position: relative;
+    width: 100%;
+    max-width: 600px;
+    margin: auto;
+    overflow: hidden;
+  }
+  
+  .slides {
+    width: 100%;
+    display: none;
+  }
+  
+  .active {
+    display: block;
+  }
+  
