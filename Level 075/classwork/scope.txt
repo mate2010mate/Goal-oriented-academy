@@ -1,0 +1,1 @@
+Scope means the area of ​​visibility of variables. That is, where we can access the variable in the code
