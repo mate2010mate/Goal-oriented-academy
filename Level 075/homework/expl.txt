@@ -1,8 +1,8 @@
-Ternary operator (? :): It's a shorthand for an if-else statement. It checks a condition and returns one value if the condition is true, and another if the condition is false.
+Ternary operator  It's a shorthand for an if-else statement. It checks a condition and returns one value if the condition is true, and another if the condition is false.
 
-Syntax: condition ? valueIfTrue : valueIfFalse;
-Example: let result = (x > 10) ? "Greater" : "Smaller";
-&& operator: This is a logical AND operator. It evaluates two expressions and returns true if both are true, otherwise, it returns false. If the first expression is falsy, the second one won’t be evaluated (short-circuiting).
+Syntax condition valueIfTrue  valueIfFalse
+Example let result = (x > 10) ? greater Smaller
+&& operator This is a logical AND operator. It evaluates two expressions and returns true if both are true, otherwise, it returns false. If the first expression is falsy, the second one won’t be evaluated (short-circuiting).
 
-Syntax: expr1 && expr2
-Example: let result = (x > 5) && (y < 10);
+Syntax:= expr1 && expr2
+Example let result = (x > 5) && (y < 10)
