@@ -20,5 +20,5 @@ class Child extends Parent {
 }
 
 const kid = new Child("Luka", 10);
-console.log(kid.greet());v
+console.log(kid.greet());
  
