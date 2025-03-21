@@ -1,0 +1,1 @@
+A Promise is a JavaScript object used to manage asynchronous operations. It represents a given value of information that will either be successfully executed (resolved) or failed (rejected) at some point in the future. A Promise allows us to avoid the so-called "callback hell" and make managing asynchronous code more manageable.
