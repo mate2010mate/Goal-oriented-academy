@@ -1,0 +1,76 @@
+body {
+    background-color: #141D2F;
+    color: white;
+    font-family: 'Segoe UI', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    padding: 40px;
+    margin: 0;
+  }
+  
+  .container {
+    width: 500px;
+  }
+  
+  header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  .search-box {
+    display: flex;
+    margin-bottom: 20px;
+  }
+  
+  .search-box input {
+    flex: 1;
+    padding: 12px;
+    border-radius: 10px 0 0 10px;
+    border: none;
+    background-color: #1E2A47;
+    color: white;
+  }
+  
+  .search-box button {
+    padding: 12px 20px;
+    background-color: #0079FF;
+    border: none;
+    border-radius: 0 10px 10px 0;
+    color: white;
+    cursor: pointer;
+  }
+  
+  .card {
+    background-color: #1E2A47;
+    padding: 20px;
+    border-radius: 15px;
+  }
+  
+  .profile {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+  }
+  
+  .profile img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+  }
+  
+  .stats {
+    display: flex;
+    justify-content: space-between;
+    background-color: #141D2F;
+    padding: 15px;
+    border-radius: 10px;
+    margin: 20px 0;
+    text-align: center;
+  }
+  
+  .links p {
+    margin: 8px 0;
+  }
+  

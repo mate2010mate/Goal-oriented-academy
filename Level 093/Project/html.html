@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GitHub DevFinder</title>
+  <link rel="stylesheet" href="css.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>devfinder</h1>
+      <button id="theme-toggle">LIGHT 🌞</button>
+    </header>
+
+    <div class="search-box">
+      <input type="text" id="username" placeholder="Search GitHub username..." />
+      <button id="search-btn">Search</button>
+    </div>
+
+    <div class="card" id="profileCard" style="display: none;">
+      <div class="profile">
+        <img id="avatar" src="" alt="Avatar" />
+        <div>
+          <h2 id="name"></h2>
+          <p id="login"></p>
+          <p id="bio"></p>
+        </div>
+      </div>
+      <p id="joined"></p>
+
+      <div class="stats">
+        <div><p>Repos</p><p id="repos"></p></div>
+        <div><p>Followers</p><p id="followers"></p></div>
+        <div><p>Following</p><p id="following"></p></div>
+      </div>
+
+      <div class="links">
+        <p id="location">📍 Location</p>
+        <p id="twitter">🐦 Twitter</p>
+        <p id="blog">🔗 Blog</p>
+        <p id="company">🏢 Company</p>
+      </div>
+    </div>
+  </div>
+
+  <script src="js.js"></script>
+</body>
+</html>
