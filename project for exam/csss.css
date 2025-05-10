@@ -5,7 +5,7 @@
 
 
 body{
-    background-color:black ;
+    background-color:rgb(10, 59, 1) ;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
@@ -36,8 +36,8 @@ body{
 }
 
 .link:hover{
-    color: black;
-    background-color: white;
+    color: rgb(252, 17, 17);
+    background-color: rgb(2, 68, 11);
 }
 
 
